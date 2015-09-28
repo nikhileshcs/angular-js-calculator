@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="AngularjsCalculatorApp">
+
+<head>
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="js/library/angular.js"></script>
+    <script src="js/app/app.js"></script>
+    <script src="js/app/display-directive/display.js"></script>
+    <script src="js/app/display-directive/button.js"></script>
+    <script src="js/app/services/buttons-factory.js"></script>
+    <script src="js/app/services/display-factory.js"></script>
+    <script src="js/app/services/calculator-factory.js"></script>
+    <script src="js/app/controller/calc-controller.js"></script>
+    <script src="js/app/controller/displayController.js"></script>
+    <script src="js/app/controller/buttonController.js"></script>
+
+</head>
+
+<body >
+
+<div class="theme-calculator" ng-controller="CalculatorController">
+
+    <div class="display-container" ng-controller="DisplayController" >
+
+        <cal-display></cal-display>
+
+
+    <div class="button-container" ng-controller="ButtonController">
+
+        <cal-button></cal-button>
+
+    </div>
+    </div>
+</div>
+
+</body>
+
+</html>

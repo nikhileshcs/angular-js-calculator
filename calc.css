@@ -1,0 +1,75 @@
+.theme-button:hover{
+    background-color: cadetblue;
+}
+.theme-button:active{
+    border: 1px inset white;
+    text-decoration:none;
+}
+.back{
+    background: #4e4e4e url("http://www.iconsplace.com/download/white-keyboard-backspace-256.png") no-repeat center;
+    background-size: 97%;
+    background-color: inherit!important;
+}
+.value-box{
+    padding: 37px 0px;
+    padding-left: 22px;
+    width: 95%;
+    font-family: monospace;
+    font-size: xx-large;
+    background: cadetblue linear-gradient(grey, white);
+    cursor: default;
+    border: blueviolet medium solid;
+    color: #333;
+}
+.button-container .container {
+    width: 100%;
+    margin-top: 1%;
+    float: left;
+    cursor: pointer;
+}
+.button-container .container div {
+    width: 31.3%;
+    display: block;
+    float: left;
+    min-height: 30px;
+    margin-top: 2%;
+}
+.button-container .container div:first-child {
+    width: 94%;
+}
+.button-container .container div:last-child {
+     width: 94%;
+     background-color: red;
+}
+.container {
+    width: auto;
+    padding: 2px;
+}
+.display-container .container {
+    width: 100%;
+    margin-top: 1%;
+}
+.theme-calculator {
+    height: 530px;
+    width: 450px;
+    padding: 15px 15px 20px 15px;
+    background-color: #f7f7f7;
+    border: 1px solid;
+}
+.theme-button {
+    height: 44px;
+    font-size: 15px;
+    padding: 9px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    font-family: Courier New, serif;
+    font-weight: bolder;
+    background-color: #4e4e4e;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(191,191,191,0.1);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(191,191,191,0.1);
+    box-shadow: 0px 2px 3px 0px rgba(191,191,191,0.1);
+    margin-right: 1px;
+
+}
